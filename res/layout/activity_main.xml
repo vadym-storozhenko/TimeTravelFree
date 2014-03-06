@@ -2,32 +2,36 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-android:background="@drawable/old_book_bkgnd" >"
-
-<TextView
-    android:id="@+id/textView1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_alignParentTop="true"
-    android:layout_centerHorizontal="true"
-    android:textSize="25sp" />
-
-<DigitalClock
-    android:id="@+id/digitalClock1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_below="@+id/textView1"
-    android:layout_centerHorizontal="true"
-    android:text="DigitalClock"
-    android:textSize="25sp" />
+android:background="@drawable/old_book_bkgnd" >
 
 
-<CustomDigitalClock
-    android:id="@+id/fragment_clock_digital"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_centerHorizontal="true"
-    android:textSize="25sp"
-    android:typeface="monospace" />
-
+ 
+    <TextView
+        android:id="@+id/lblTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Year: "
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:layout_below="@+id/lblTime"
+        android:textColor="#FF0000"
+        android:textSize="34sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+ 
+    <Button
+        android:id="@+id/btnChangeTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Year"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    
 </RelativeLayout>

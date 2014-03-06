@@ -15,10 +15,10 @@ public final class R {
         public static final int old_book_bkgnd=0x7f020001;
     }
     public static final class id {
-        public static final int digitalClock1=0x7f070001;
-        public static final int fragment_clock_digital=0x7f070002;
+        public static final int btnChangeTime=0x7f070002;
+        public static final int lblTime=0x7f070000;
         public static final int menu_settings=0x7f070003;
-        public static final int textView1=0x7f070000;
+        public static final int tvTime=0x7f070001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
